@@ -1,0 +1,20 @@
+﻿#s4-ribbonrow {
+    display: none;
+}
+
+.welcome-content {
+    display: none;
+}
+
+.mll-dup-items {
+    padding: 0;
+}
+
+    .mll-dup-items li {
+        list-style: none;
+    }
+
+.mll-dup-buttons {
+    text-align: right;
+    margin-top: 15px;
+}

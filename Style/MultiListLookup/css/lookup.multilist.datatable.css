@@ -1,0 +1,147 @@
+﻿.mll-dt-main {
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.mll-section-title {
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    background-color: white;
+}
+
+.mml-dt-title {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.mll-tagify-input {
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    background-color: white;
+    margin: 15px 10px;
+}
+
+.mll-dt-container {
+    padding-bottom: 15px;
+}
+
+    .mll-dt-container .dataTables_length {
+        margin-left: 10px;
+    }
+
+        .mll-dt-container .dataTables_length select {
+            border: 1px solid #E5E5E5;
+            border-radius: 5px;
+            padding: 6px;
+        }
+
+    .mll-dt-container input[type="search"] {
+        border: 1px solid #E5E5E5;
+        border-radius: 5px;
+        background-color: white;
+        padding: 6px;
+        margin-right: 10px;
+    }
+
+    .mll-dt-container .dataTables_info {
+        margin-left: 10px;
+    }
+
+    .mll-dt-container .dataTables_paginate {
+        margin-right: 10px;
+    }
+
+.tagify__tag[readonly] > div::before,
+.tagify[readonly] .tagify__tag > div::before {
+    background: none;
+    border: 1px solid #E5E5E5;
+}
+
+.tagify__tag {
+    margin-right: 1.5em;
+}
+
+.mll-dt-main .tagify__tag > div {
+    padding: 0.4em 0.8em;
+    background-color: #004d85;
+}
+
+.tagify__tag__removeBtn {
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    border: 2px solid;
+    right: -1.5em;
+    width: 12px;
+    height: 12px;
+    font-size: 12px;
+    line-height: 8px;
+    font-weight: 700;
+}
+
+.tagify__tag-text {
+    color: white;
+}
+
+.tagify__tag__removeBtn::after {
+    content: 'x'
+}
+
+.mll-dt-main .glyphicon {
+    position: absolute;
+    top: 8px;
+    right: -1.2em;
+}
+/* Loader */
+.mll-dt-disable {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(255,255,255, 0.8);
+    z-index: 9998;
+    display: none;
+}
+
+.mll-dt-loader {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    z-index: 1;
+    margin: 0;
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 5s linear infinite;
+    animation: spin 5s linear infinite;
+    z-index: 9999;
+    display: none;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

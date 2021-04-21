@@ -1,0 +1,52 @@
+﻿<script type="text/javascript">
+
+    ExecuteOrDelayUntilBodyLoaded(function () {
+
+        var webUrl = _spPageContextInfo.webAbsoluteUrl;
+        var resourceKey = 'sp.login.notification.js';
+        var filePath = '/Style Library/sp.login.module/js/sp.login.notification.js';
+        RegisterSod(resourceKey, webUrl + filePath);
+        SP.SOD.executeFunc(resourceKey, null, null);
+    });
+</script>
+<div class='login-loader'></div>
+<div id='login-notification' style='display: none;'>
+    <div class="form-group">
+        <label id="login-module" for="login-title">[Module Name]</label>
+        <input type="text" class="form-control" id="login-title" readonly />
+    </div>
+    <div class="form-group">
+        <label for="login-sent-from">Sent from</label>
+        <input type="text" class="form-control" id="login-sent-from" readonly />
+    </div>
+    <div class='login-send-group'>
+        <div class="form-group">
+            <label>Send Notification to</label>
+            <div id="peoplePickerDiv"></div>
+        </div>
+        <div class='form-group'>
+            <label for="login-notification-comment">Notification comment</label>
+            <textarea id="login-notification-comment" type="text" class="form-control"></textarea>
+        </div>
+    </div>
+    <div class="form-group login-buttons">
+        <span>
+            <input type="button" class="btn btn-default" id="btnCancel" title="Cancel" value="Cancel Form"
+                   onclick="sp.login.notification.onCancel();" />
+        </span>
+        <span>
+            <input type="button" class="btn btn-primary" id="btnSubmit" title="Submit" value="Send Notification"
+                   onclick="sp.login.notification.onSend()" />
+        </span>
+    </div>
+</div><html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"><head>
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Brett Anderson</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Brett Anderson</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:Order msdt:dt="string">15400.0000000000</mso:Order>
+<mso:_dlc_DocId msdt:dt="string">7TYJ3MN5V5V6-336455250-154</mso:_dlc_DocId>
+<mso:_dlc_DocIdUrl msdt:dt="string">https://portal.ensignlab.com.au/apps/CR/_layouts/15/DocIdRedir.aspx?ID=7TYJ3MN5V5V6-336455250-154, 7TYJ3MN5V5V6-336455250-154</mso:_dlc_DocIdUrl>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>

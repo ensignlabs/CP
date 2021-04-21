@@ -1,0 +1,121 @@
+﻿.mpp-sortable {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+.mpp-user-tag {
+	background-color: #3498db;
+	border-radius: 3px;
+	color: white;
+	padding: 5px 10px;
+	cursor: pointer;
+	margin: 2px 0;
+	display: inline-block;
+}
+.mpp-inprogress{
+	background-color: green !important;
+} 
+.mpp-approved{
+	background-color:rgb(105,105,105) !important;
+}
+.mpp-rejected{
+	background-color:red !important;
+}
+.mpp-pp-tags .ip-container {
+	min-height: 42px;
+}
+
+.mpp-pp-tags .ip-input {
+	margin: 10px 0;
+}
+
+.mpp-pp-tags .ip-item {
+	font-size: 14px;
+	font-family: inherit;
+}
+
+.mpp-pp-tags .ip-item span {
+	border: none;
+	background-color: transparent;
+	height: auto;
+}
+
+.mpp-pp-tags .ip-item .ip-item-content {
+	background-color: #3498db;
+	border-radius: 3px;
+	color: white;
+	padding: 5px 10px;
+	cursor: pointer;
+	margin: 0;
+	max-height: none;
+	line-height: 20px;
+}
+
+.mpp-pp-tags .ip-item .ip-close {
+	position: relative;
+	font-family: "Glyphicons Halflings";
+	font-style: normal;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	background: none;
+	color: #333;
+	margin: 0 0 0 5px;
+	top: 7px;
+	opacity: 1;
+}
+
+.mpp-pp-tags .ip-item .ip-close::before {
+	content: "\e088";
+}
+
+.mpp-sortable .glyphicon {
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.mpp-add-user {
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+	padding: 6px;
+	width: 100px;
+}
+
+.mpp-add-user:hover {
+	border-color: #bebebe;
+	background-color: #f0f0f0;
+}
+
+.mpp-sortable.read-only li {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.modal-dialog-centered {
+	display: flex;
+	align-items: center;
+	min-height: calc(100% - (.5rem * 2));
+}
+
+.modal-dialog-centered::before {
+	display: block;
+	height: calc(100vh - (.5rem * 2));
+	content: "";
+}
+
+.modal-dialog-centered.modal-dialog-scrollable {
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+
+.modal-dialog-centered.modal-dialog-scrollable .modal-content {
+	max-height: none;
+}
+
+.modal-dialog-centered.modal-dialog-scrollable .modal-content::before {
+	content: none;
+}
+
+.modal-dialog .close {
+	width: auto;
+}

@@ -1,0 +1,155 @@
+.ms-dlgContent .ms-dlgTitleBtns .ms-dlgCloseBtn > span {
+    box-sizing: content-box;
+}
+
+.nf-attachmentFileInput {
+    box-sizing: content-box;
+}
+
+.nf-filler-container{
+     border: none;
+}
+
+.new-label {
+    font-family: 'Roboto', sans-serif;
+    color: #303f52;
+    font-size: 100%;
+}
+
+.mpp-sortable {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.new-input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+
+
+.mpp-user-tag {
+    background-color: #0072c6;
+    border-radius: 3px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 2px 0;
+    display: inline-block;
+}
+
+.mpp-pp-tags .ip-container {
+    min-height: 42px;
+}
+
+.mpp-pp-tags .ip-input {
+    margin: 10px 0;
+}
+
+.mpp-pp-tags .ip-item {
+    font-size: 14px;
+    font-family: inherit;
+}
+
+    .mpp-pp-tags .ip-item span {
+        border: none;
+        background-color: transparent;
+        height: auto;
+    }
+
+    .mpp-pp-tags .ip-item .ip-item-content {
+        background-color: #0072c6;
+        border-radius: 3px;
+        color: white;
+        padding: 5px 10px;
+        cursor: pointer;
+        margin: 0;
+        max-height: none;
+        line-height: 20px;
+    }
+
+    .mpp-pp-tags .ip-item .ip-close {
+        position: relative;
+        font-family: "Glyphicons Halflings";
+        font-style: normal;
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
+        background: none;
+        color: #333;
+        margin: 0 0 0 5px;
+        top: 7px;
+        opacity: 1;
+    }
+
+        .mpp-pp-tags .ip-item .ip-close::before {
+            content: "\e088";
+        }
+
+.mpp-sortable .glyphicon {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.mpp-add-user {
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    padding: 6px;
+    width: 100px;
+}
+
+    .mpp-add-user:hover {
+        border-color: #bebebe;
+        background-color: #f0f0f0;
+    }
+
+.mpp-sortable.read-only li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - (.5rem * 2));
+}
+
+    .modal-dialog-centered::before {
+        display: block;
+        height: calc(100vh - (.5rem * 2));
+        content: "";
+    }
+
+    .modal-dialog-centered.modal-dialog-scrollable {
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+
+        .modal-dialog-centered.modal-dialog-scrollable .modal-content {
+            max-height: none;
+        }
+
+            .modal-dialog-centered.modal-dialog-scrollable .modal-content::before {
+                content: none;
+            }
+
+.modal-dialog .close {
+    width: auto;
+}
+
+.buttons .ui-button{
+ background-color: white  !important;    
+ background-image: none;
+ }
+ 
+.buttons .ui-state-active{ 
+ background-color: #004d85 !important;
+ background-image: none;
+ color: white;
+}
+ 
+input, select, textarea, .ms-inputBox, .ip-container, .ip-item span {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,57 @@
+﻿#login-notification #btnSubmit:hover {
+    color: black;
+}
+
+.sp-peoplepicker-topLevel.form-control {
+    height: auto;
+}
+
+.login-send-group {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.login-buttons {
+    text-align: right;
+    margin: 15px 0;
+}
+
+#s4-workspace {
+    overflow-y: hidden !important;
+}
+/* Loader */
+.login-loader {
+    position: absolute;
+    left: calc(50% - 20px);
+    top: calc(50% - 20px);
+    margin: 0;
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 5s linear infinite;
+    animation: spin 5s linear infinite;
+    z-index: 9999;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
